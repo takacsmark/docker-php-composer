@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 COPY composer-install.sh ./ 
-RUN chmod 744 composer-install.sh && \
+RUN chmod 744 composer-install.sh; sync && \
   ./composer-install.sh && \
   mv composer.phar /usr/local/bin/composer && \
   rm -f composer-install.sh
