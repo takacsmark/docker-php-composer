@@ -1,8 +1,8 @@
 ## Overview
 
-This repository contains a Docker image with PHP and the Composer package manager. 
+This repository contains a Docker image with PHP and the Composer package manager.
 
-**The image is meant to be used as the parent image for your Dockerfile in your PHP Composer project.** Use it with the `FROM` instruction in your Dockerfile and build your image on top of it. 
+**This image is meant to be used as the parent image for your Dockerfile in your PHP Composer project.** Use it with the `FROM` instruction in your Dockerfile and build your image on top of it. 
 
 This image uses the latest version of Composer, you can find details about Composer installation in `composer-install.sh`.Composer installation is based on the this description: [https://getcomposer.org/doc/faqs/how-to-install-composer-programmatically.md](https://getcomposer.org/doc/faqs/how-to-install-composer-programmatically.md).
 
